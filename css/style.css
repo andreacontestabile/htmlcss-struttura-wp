@@ -3,3 +3,24 @@
   margin: 0;
   padding: 0;
 }
+
+.container {
+  width: 1600px;
+  margin: 20px auto 0;
+}
+
+#header {
+  height: 180px;
+  background-color: #fefe3a;
+}
+
+main {
+  min-height: 700px;
+  margin: 10px 0;
+  background-color: red;
+}
+
+#footer {
+  height: 80px;
+  background-color: #a4d2e1
+}
