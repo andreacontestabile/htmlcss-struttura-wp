@@ -15,9 +15,41 @@
 }
 
 main {
-  min-height: 700px;
+  height: 650px;
   margin: 10px 0;
-  background-color: red;
+}
+
+.sidebar, .widget-area {
+  float: left;
+  width: 25%;
+}
+
+.sidebar {
+min-height: 65%;
+}
+
+.sidebar, .widget {
+  background-color: #cc87da;
+}
+
+.main-content {
+  float: left;
+  margin: 0 1.5%;
+  width: 47%;
+  height: 100%;
+  background-color: #730671;
+}
+
+.widget-area {
+  height: 99%;
+}
+
+.widget {
+  height: 47%;
+}
+
+.widget:first-child {
+  margin-bottom: 6%
 }
 
 #footer {
