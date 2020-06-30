@@ -19,6 +19,12 @@ main {
   margin: 10px 0;
 }
 
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .sidebar, .widget-area {
   float: left;
   width: 25%;
